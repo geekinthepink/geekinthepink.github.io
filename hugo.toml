@@ -1,0 +1,25 @@
+baseURL = 'https://geekinthepink.github.io'
+languageCode = 'zh-CN'
+title = '豆狸的博客'
+theme = 'ananke'
+paginate = 10
+
+[params]
+  author = '豆狸'
+  description = '记录生活与技术'
+  favicon = ''
+  site_logo = ''
+
+[menu]
+  [[menu.main]]
+    name = '首页'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = '文章'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    name = '关于'
+    url = '/about/'
+    weight = 30
